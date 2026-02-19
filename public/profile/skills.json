@@ -1,63 +1,56 @@
 {
-    "intro": "I love to learn new things and experiment with new technologies.\nThese are some of the major languages, technologies, tools and platforms I have worked with:",
-    "skills": [{
-     
-            "title": "Languages & Databases",
-            "items" : [
-     
-                {
-                    "icon": "images/skills/java.png",
-                    "title": "Java"
-                },
-                {
-                    "icon": "images/skills/php.png",
-                    "title": "PHP"
-                },
-                {
-                    "icon": "images/skills/js.png",
-                    "title": "JavaScript"
-                },
-                {
-                    "icon": "images/skills/python.png",
-                    "title": "Python"
-                },
-                {
-                    "icon": "images/skills/mysql.png",
-                    "title": "MySQL"
-                }
-        ]},
+  "intro": "I work across ML research and production-focused AI systems. Core stack: C, C++, SQL, Python, NumPy, Pandas, PyTorch, scikit-learn, Matplotlib, Seaborn, NLTK, LangChain, and RAG.\n\nI also use Git, GitHub, Docker, Jupyter Notebook, VS Code, AWS (ECR, EC2), Pinecone, Streamlit, and GitHub Actions.",
+  "skills": [
+    {
+      "title": "Programming",
+      "items": [
         {
-            "title": "Frameworks & Technologies",
-            "items" : [
-                {
-                    "icon": "images/skills/android_new.png",
-                    "title": "Android"
-                },
-                {
-                    "icon": "images/skills/react.png",
-                    "title": "React"
-                },
-                {
-                    "icon": "images/skills/nodejs.png",
-                    "title": "Nodejs"
-                }
-            ]
+          "icon": "images/skills/c-plus-plus.svg",
+          "title": "C / C++"
         },
         {
-            "title" : "Tools & Platforms",
-            "items": [
-                {
-                    "icon": "images/skills/android-studio.png",
-                    "title": "Android Studio"
-                },
-                {
-                    "icon": "images/skills/git.png",
-                    "title": "Git"
-                },
-                {
-                    "icon": "images/skills/docker.png",
-                    "title": "Docker"
-                }
-            ]
+          "icon": "images/skills/python.png",
+          "title": "Python"
+        },
+        {
+          "icon": "images/skills/mysql.png",
+          "title": "SQL"
+        }
+      ]
+    },
+    {
+      "title": "Machine Learning",
+      "items": [
+        {
+          "icon": "images/skills/python.png",
+          "title": "PyTorch"
+        },
+        {
+          "icon": "images/skills/python.png",
+          "title": "Scikit-learn"
+        },
+        {
+          "icon": "images/skills/python.png",
+          "title": "NLP and RAG"
+        }
+      ]
+    },
+    {
+      "title": "Developer Tools",
+      "items": [
+        {
+          "icon": "images/skills/git.png",
+          "title": "Git / GitHub"
+        },
+        {
+          "icon": "images/skills/docker.png",
+          "title": "Docker"
+        },
+        {
+          "icon": "images/skills/cloudflare.png",
+          "title": "AWS and CI/CD"
+        }
+      ]
     }
-]}
+  ]
+}

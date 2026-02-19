@@ -1,150 +1,72 @@
 {
-    "projects" : [
+  "projects": [
+    {
+      "image": "images/projects/portfolio-poster.png",
+      "title": "Medical Chatbot",
+      "bodyText": "- Built an end-to-end AI medical question-answering system over long-form clinical content.\n- Implemented a **RAG** pipeline with **Pinecone** for context-aware retrieval.\n- Automated deployment using **Docker**, **GitHub Actions**, and **AWS**.",
+      "links": [
         {
-            "image" : "images/projects/portfolio-poster.png",
-            "title": "Dev Portfolio",
-            "bodyText": "- Developer Portfolio Website made in React\n -  Fully customisable and dynamic, easily change data and images.\n - Dark Mode Support",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/dev-portfolio"
-                },
-                {
-                    "text": "Live",
-                    "href": "https://mayankagarwal.me"
-                }
-            ],
-            "tags" : [
-                "React",
-                "Portfolio",
-                "JavaScript"
-            ]
-        },
-        {
-            "image" : "images/projects/caaring-poster.png",
-            "title": "Caaring -  Cab Share App",
-            "bodyText": "- A Cab Sharing web app made using **Django** for **VIT** Students. People can create a new cab or request to join an existing cab.\n - Added User authentication and password reset using **SendGrid**.\n - Deployed on **heroku** using **gunicorn**.",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/Caaring"
-                },
-                {
-                    "text": "Live",
-                    "href": "http://caaring.herokuapp.com"
-                }
-            ],
-            "tags" : [
-                "Python",
-                "Django",
-                "BootStrap",
-                "SendGrid",
-                "Heroku",
-                "Gunicorn",
-                "VIT"
-            ]
-        },
-        {
-            "image" : "images/projects/quiet-hours-poster.jpg",
-            "title": "Quiet Hours App",
-            "bodyText": "- An Android App that **automatically silences** your phone during class hours, designed for **VITians**.\n - Option to select class **slots** and **custom time**.\n - Option to put on Vibrate instead of Silent.",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/QuietHours-Android"
-                }
-            ],
-            "tags" : [
-                "Java",
-                "Android",
-                "Alarm Manager",
-                "VIT"
-            ]
-        },
-        {
-            "title": "Secure Chat App",
-            "bodyText": "- An Android App that allows users to send texts in real time.\n - End to End encryption using **RSA** Algorithm.\n - Uses **Firebase** database to store texts.\n - Secured with **Fingerprint** lock.",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/SecureChatApp"
-                }
-            ],
-            "tags" : [
-                "Java",
-                "Android",
-                "Firebase",
-                "RSA"
-            ]
-        },
-        {
-            "title": "MVVM Sample App",
-            "bodyText": "- An Android App that loads data from mock API and show in both **LinearLayout** and **GridLayout RecyclerView**.\n - Offline support using **Room** DB and **NetworkBoundResource**.\n - Uses the **MVVM** architecture.",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/mvvm-sample-app"
-                }
-            ],
-            "tags" : [
-                "Kotlin",
-                "Android",
-                "MVVM",
-                "Room",
-                "Coroutines",
-                "Flow",
-                "Hilt-Dagger",
-                "NetworkBoundResource"
-            ]
-        },
-        {
-            "title": "Feed List App",
-            "bodyText": "- An Android App that loads list of feeds from a **paginated** API and shows in a RecyclerView.\n - Uses the **MVVM** architecture.\n - Uses **Paging 3** library along with other Architecture Components.",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/Paginated-App-Feeds-List"
-                }
-            ],
-            "tags" : [
-                "Kotlin",
-                "Android",
-                "MVVM",
-                "Paging 3",
-                "Coroutines",
-                "Flow"
-            ]
-        },
-        {
-            "title": "Task Tracker",
-            "bodyText": "- A simple Task Tracker web app made with **Angular 12**.\n - Uses **mock JSON server** to get, add, delete or update tasks.",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/task-tracker-app"
-                }
-            ],
-            "tags" : [
-                "TypeScript",
-                "Angular 12",
-                "JavaScript"
-            ]
-        },
-        {
-            "title": "Image Encryption/Decryption",
-            "bodyText": "- A Web App for Image Encryption and Decryption made in **Django**.\n - Uses **SDES** algorithm for encryption/decryption.",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/img-encrypt-sdes"
-                }
-            ],
-            "tags" : [
-                "Python",
-                "Django",
-                "SDES",
-                "Cryptography"
-            ]
+          "text": "GitHub",
+          "href": "https://github.com/naskar002/Medical_ChaTBoT.git"
         }
-    ]
+      ],
+      "tags": [
+        "Python",
+        "RAG",
+        "LangChain",
+        "Pinecone",
+        "Docker",
+        "AWS"
+      ]
+    },
+    {
+      "image": "images/projects/caaring-poster.png",
+      "title": "Twitter Hate Speech Detection",
+      "bodyText": "- Built an RNN-based hate speech classifier with **93.8%** validation accuracy and **91%** recall on **56,745** tweets.\n- Designed a custom NLP tokenizer with 50K vocabulary and sequence padding for model training.\n- Trained a 5.1M-parameter LSTM with PyTorch Lightning and deployed with CI/CD on AWS.",
+      "links": [
+        {
+          "text": "GitHub",
+          "href": "https://github.com/naskar002/Twitter-Hate-Speech-Detection-end-to-end-using-RNN.git"
+        }
+      ],
+      "tags": [
+        "Python",
+        "NLP",
+        "RNN",
+        "LSTM",
+        "PyTorch",
+        "AWS"
+      ]
+    },
+    {
+      "image": "images/projects/quiet-hours-poster.jpg",
+      "title": "Identifying Question Pairs with Similar Intent",
+      "bodyText": "- Built a semantic duplicate-question detection model using Random Forest and Gaussian Naive Bayes.\n- Achieved **75%** accuracy and **60%** recall with TF-IDF features and text preprocessing pipeline.\n- Deployed the model with **Streamlit** for interactive real-time inference.",
+      "links": [
+        {
+          "text": "GitHub",
+          "href": "https://github.com/naskar002/Identifying-Question-Pairs-with-Similar-Intent.git"
+        }
+      ],
+      "tags": [
+        "Python",
+        "NLP",
+        "TF-IDF",
+        "Random Forest",
+        "Naive Bayes",
+        "Streamlit"
+      ]
+    },
+    {
+      "title": "Publication: Generative Models as Surrogates for Global SST",
+      "bodyText": "- Comparative study of **GAN**, **VAE**, and **DDPM** for Earth-system surrogate modeling.\n- Focused on long-horizon global SST simulation using CMIP6 GISS data.\n- Status: **Under Review** (July 2025).",
+      "tags": [
+        "Climate AI",
+        "GAN",
+        "VAE",
+        "DDPM",
+        "Research"
+      ]
+    }
+  ]
 }

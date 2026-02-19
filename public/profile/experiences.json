@@ -1,33 +1,49 @@
 {
-    "experiences": [
-        {
-            "title": "Software Engineer",
-            "subtitle": "XYZ Ltd",
-            "workType": "Full-time",
-            "workDescription": [
-                "Integrated **2** new product.",
-                "Worked on adding **def** to **bcd**. Improved speed by 50%."
-            ],
-            "dateText": "06/20XX – Present"
-        },
-        {
-            "title": "Software Engineer",
-            "subtitle": "XYZ Ltd",
-            "workType": "Internship",
-            "workDescription": [
-                "Worked on abc."
-            ],
-            "dateText": "01/20XX – 05/20XX"
-        },
-        {
-            "title": "App Developer",
-            "subtitle": "ABC Pvt Ltd",
-            "workType": "Freelance",
-            "workDescription": [
-                "Developed the official apps for the startup for both Android and iOS using hybrid framework.",
-                "Done bcd work."
-            ],
-            "dateText": "09/20XX – 01/20YY"
-        }
-    ]
+  "experiences": [
+    {
+      "title": "Research Intern",
+      "subtitle": "National University of Singapore",
+      "workType": "Internship",
+      "workDescription": [
+        "Analyzed voter salience and contextual biases to design data-driven political strategy insights.",
+        "Built a probabilistic multilingual model on **600,000+** human responses for citizen preference prediction.",
+        "Optimized BERTopic-based topic extraction to segment and analyze large multilingual corpora."
+      ],
+      "dateText": "May 2023 - Jul 2023"
+    },
+    {
+      "title": "Data Science Intern",
+      "subtitle": "Chi SquareX, Bengaluru",
+      "workType": "Internship",
+      "workDescription": [
+        "Built a credit risk classifier on the German Credit dataset to predict loan defaults.",
+        "Performed EDA and feature engineering using Chi-square, ANOVA, and PCA for multicollinearity handling.",
+        "Benchmarked **8** models and achieved best performance with LightGBM: **F1 0.86** (test) and **0.83** (5-fold CV).",
+        "Tuned LightGBM with GridSearchCV for learning rate, depth, and estimators under class imbalance constraints."
+      ],
+      "dateText": "Nov 2023 - Dec 2023"
+    },
+    {
+      "title": "Research Intern",
+      "subtitle": "Indian Institute of Technology Kharagpur",
+      "workType": "Internship",
+      "workDescription": [
+        "Developed an end-to-end climate diffusion pipeline for long-horizon SST anomaly generation.",
+        "Implemented conditional DDPM with attention-augmented UNet for seasonally conditioned global SST maps.",
+        "Built an autoregressive SST generation and evaluation pipeline validated with spatial and temporal correlations.",
+        "Reached average spatial correlation of **0.982** across training runs."
+      ],
+      "dateText": "May 2025 - Jul 2025"
+    },
+    {
+      "title": "Research Publication (Under Review)",
+      "subtitle": "A Comparative Study of Generative Models as Surrogates of Earth System Models to Simulate Global SST",
+      "workType": "Publication",
+      "workDescription": [
+        "Co-authored comparative evaluation of GAN, VAE, and DDPM for long-horizon global SST generation using CMIP6 GISS data.",
+        "Demonstrated GAN-based emulations as the most consistent with observed SST patterns in this study."
+      ],
+      "dateText": "Jul 2025"
+    }
+  ]
 }

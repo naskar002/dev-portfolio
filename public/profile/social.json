@@ -1,16 +1,16 @@
 {
-    "social": [
-        {
-            "network" : "linkedin",
-            "href": "https://linkedin.com/"
-        },
-        {
-            "network" : "github",
-            "href": "https://github.com/mayankagarwal09"
-        },
-        {
-            "network" : "email",
-            "href": "mailto:test@test.com"
-        }
-    ]
+  "social": [
+    {
+      "network": "linkedin",
+      "href": "https://www.linkedin.com/in/rupapriya-naskar-217045245/"
+    },
+    {
+      "network": "github",
+      "href": "https://github.com/naskar002"
+    },
+    {
+      "network": "email",
+      "href": "mailto:rupapriyanaskar2002@gmail.com"
+    }
+  ]
 }
