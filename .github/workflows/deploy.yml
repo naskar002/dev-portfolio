@@ -28,14 +28,22 @@ jobs:
       - name: Detect app directory
         id: appdir
         run: |
-          if [ -f package.json ] && [ -f package-lock.json ]; then
-            echo "dir=." >> "$GITHUB_OUTPUT"
-          elif [ -f dev-portfolio/package.json ] && [ -f dev-portfolio/package-lock.json ]; then
-            echo "dir=dev-portfolio" >> "$GITHUB_OUTPUT"
-          else
-            echo "package.json/package-lock.json not found in root or dev-portfolio/" >&2
-            exit 1
+          candidates=(. portfolio dev-portfolio)
+          for dir in "${candidates[@]}"; do
+            if [ -f "$dir/package.json" ] && [ -f "$dir/package-lock.json" ]; then
+              echo "dir=${dir#./}" >> "$GITHUB_OUTPUT"
+              exit 0
+            fi
+          done
+
+          lockfile_dir=$(find . -maxdepth 3 -type f -name package-lock.json -not -path "*/node_modules/*" | head -n 1 | xargs -r dirname)
+          if [ -n "$lockfile_dir" ] && [ -f "$lockfile_dir/package.json" ]; then
+            echo "dir=${lockfile_dir#./}" >> "$GITHUB_OUTPUT"
+            exit 0
           fi
+
+          echo "package.json/package-lock.json not found in root or common subfolders" >&2
+          exit 1
 
       - name: Setup Node
         uses: actions/setup-node@v4
