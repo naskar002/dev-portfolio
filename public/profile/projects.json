@@ -1,7 +1,7 @@
 {
   "projects": [
     {
-      "image": "images/projects/portfolio-poster.png",
+      "image": "images/projects/chatbot.jpg",
       "title": "Medical Chatbot",
       "bodyText": "- Built an end-to-end AI medical question-answering system over long-form clinical content.\n- Implemented a **RAG** pipeline with **Pinecone** for context-aware retrieval.\n- Automated deployment using **Docker**, **GitHub Actions**, and **AWS**.",
       "links": [
@@ -20,7 +20,7 @@
       ]
     },
     {
-      "image": "images/projects/caaring-poster.png",
+      "image": "images/projects/hatespeech.jpg",
       "title": "Twitter Hate Speech Detection",
       "bodyText": "- Built an RNN-based hate speech classifier with **93.8%** validation accuracy and **91%** recall on **56,745** tweets.\n- Designed a custom NLP tokenizer with 50K vocabulary and sequence padding for model training.\n- Trained a 5.1M-parameter LSTM with PyTorch Lightning and deployed with CI/CD on AWS.",
       "links": [
@@ -39,7 +39,7 @@
       ]
     },
     {
-      "image": "images/projects/quiet-hours-poster.jpg",
+      "image": "images/projects/quora.jpg",
       "title": "Identifying Question Pairs with Similar Intent",
       "bodyText": "- Built a semantic duplicate-question detection model using Random Forest and Gaussian Naive Bayes.\n- Achieved **75%** accuracy and **60%** recall with TF-IDF features and text preprocessing pipeline.\n- Deployed the model with **Streamlit** for interactive real-time inference.",
       "links": [
@@ -58,15 +58,47 @@
       ]
     },
     {
-      "title": "Publication: Generative Models as Surrogates for Global SST",
-      "bodyText": "- Comparative study of **GAN**, **VAE**, and **DDPM** for Earth-system surrogate modeling.\n- Focused on long-horizon global SST simulation using CMIP6 GISS data.\n- Status: **Under Review** (July 2025).",
-      "tags": [
-        "Climate AI",
-        "GAN",
-        "VAE",
-        "DDPM",
-        "Research"
-      ]
+  "image": "images/projects/juniorSHAKESPEARE.jpg",
+  "title": "juniorSHAKESPEARE: Build a Character-Level Language Model",
+  "bodyText": "- Implemented a character-level language model inspired by classic GPT architectures to generate Shakespeare-like text.\n- Explored and coded two versions (`gpt1.py` and `gpt2.py`) of generative models and trained them with a curated dataset.\n- Documented the model development and experimentation process using **Jupyter Notebook** (`build_gpt_from_scratch.ipynb`).\n- Used the tiny Shakespeare dataset for training and text generation tasks. ",
+  "links": [
+    {
+      "text": "GitHub",
+      "href": "https://github.com/naskar002/juniorSHAKESPEARE.git"
     }
+  ],
+  "tags": [
+    "Python",
+    "Machine Learning",
+    "Deep Learning",
+    "NLP",
+    "GPT",
+    "Character-Level Modeling",
+    "Jupyter Notebook"
+  ]
+},
+{
+  "image": "images/projects/semantic-property-matching.jpg",
+  "title": "Semantic Property Matching System",
+  "bodyText": "- Built a hybrid recommendation engine to match users with real estate properties by combining **semantic text similarity** and **numerical structured features**.\n- Converted user preferences and property data into text and computed embeddings using **pretrained transformer models**.\n- Calculated hybrid match scores based on **cosine similarity** and numeric feature alignment.\n- Included a **Streamlit app** for interactive property recommendations.\n- Provided visualization utilities for analyzing recommendation scores and outputs.",
+  "links": [
+    {
+      "text": "GitHub",
+      "href": "https://github.com/naskar002/semantic-property-matching.git"
+    }
+  ],
+  "tags": [
+    "Python",
+    "Machine Learning",
+    "NLP",
+    "Sentence Embeddings",
+    "Cosine Similarity",
+    "Streamlit",
+    "Recommender System"
+  ]
+}
+
+
+    
   ]
 }

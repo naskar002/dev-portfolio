@@ -8,29 +8,14 @@ import endpoints from '../constants/endpoints';
 import FallbackSpinner from './FallbackSpinner';
 
 const styles = {
-  sectionContainer: {
-    width: '100%',
-    paddingLeft: '4vw',
-    paddingRight: '4vw',
-  },
   introTextContainer: {
-    margin: 10,
+    margin: '0 auto',
+    maxWidth: 960,
     flexDirection: 'column',
     whiteSpace: 'pre-wrap',
     textAlign: 'left',
     fontSize: '1.2em',
     fontWeight: 500,
-  },
-  introImageContainer: {
-    margin: 10,
-    justifyContent: 'flex-end',
-    alignItems: 'center',
-    display: 'flex',
-  },
-  profileImage: {
-    width: '280px',
-    maxWidth: '100%',
-    height: 'auto',
   },
 };
 
@@ -57,16 +42,13 @@ function About(props) {
     <>
       <Header title={header} />
       <div className="section-content-container">
-        <Container fluid style={styles.sectionContainer}>
+        <Container>
           {data
             ? (
               <Fade>
-                <Row className="align-items-center">
-                  <Col md={8} style={styles.introTextContainer}>
+                <Row>
+                  <Col md={12} style={styles.introTextContainer}>
                     {parseIntro(data.about)}
-                  </Col>
-                  <Col md={4} style={styles.introImageContainer}>
-                    <img src={data?.imageSource} alt="profile" style={styles.profileImage} />
                   </Col>
                 </Row>
               </Fade>

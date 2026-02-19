@@ -1,24 +1,24 @@
 {
   "education": [
     {
-      "title": "2020 - 2024",
+      "title": "2021 - 2026",
       "cardTitle": "Integrated Dual Degree (B.Tech + M.Tech), Aerospace Engineering",
       "cardSubtitle": "Indian Institute of Technology Kharagpur",
       "cardDetailedText": "CGPA: 7.71",
       "icon": {
-        "src": "images/education/lorem-ipsum.png"
+        "src": "images/education/education_1.png"
       }
     },
     {
       "title": "2020",
       "cardTitle": "Higher Secondary",
-      "cardSubtitle": "WBCHSE",
+      "cardSubtitle": "WBCHSE Board",
       "cardDetailedText": "Score: 92%"
     },
     {
       "title": "2018",
       "cardTitle": "Secondary",
-      "cardSubtitle": "WBBSE",
+      "cardSubtitle": "WBBSE Board",
       "cardDetailedText": "Score: 91.71%"
     }
   ]

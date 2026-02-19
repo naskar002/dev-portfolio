@@ -19,18 +19,18 @@
       ]
     },
     {
-      "title": "Machine Learning",
+      "title": "Machine Learning and Deep Learning",
       "items": [
         {
-          "icon": "images/skills/python.png",
+          "icon": "images/skills/my_images/pytorch_image.png",
           "title": "PyTorch"
         },
         {
-          "icon": "images/skills/python.png",
+          "icon": "images/skills/my_images/sklearn.png",
           "title": "Scikit-learn"
         },
         {
-          "icon": "images/skills/python.png",
+          "icon": "images/skills/my_images/nlp_image.png",
           "title": "NLP and RAG"
         }
       ]
